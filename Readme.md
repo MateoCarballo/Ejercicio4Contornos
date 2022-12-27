@@ -4,7 +4,8 @@
 # Ejercicio 4 Contornos Primer Trimestre
 
 ## 1. Creacion de los directorios.
-    Dentro de la carpeta ejercicio 4 creamos las carpetas ordenador 1 y 2. El archivo ``` README.md ``` contiene los pasos realizados y capturas para demostrarlos.
+
+    Dentro de la carpeta ejercicio 4 creamos las carpetas ordenador 1 y 2. El archivo  README.md  contiene los pasos realizados y capturas para demostrarlos.
 
 ![Alt text](img/01_Captura%20carpetas%20de%20mi%20ejercicio.jpg)
 
