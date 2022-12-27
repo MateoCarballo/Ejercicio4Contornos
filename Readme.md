@@ -117,7 +117,11 @@ En este punto nos movemos a la carpeta de ordenador uno. Comprobamos que no hay 
 
 Añadimos una nueva clase Empleado. Existen cambios en la Main y 
 la nueva clase que no era trackeada. Asi que los añadimos al area intermedia y lo commiteamos. 
-Una vez hecho esto lo pusheamos a nuestro repo remoto y vemos que ramas tenemos con el comando  ``` git branch -a ´´´.
+Una vez hecho esto lo pusheamos a nuestro repo remoto y vemos que ramas tenemos con el comando  
+
+ ```bash
+        git branch -a
+ ```
 
 ![Alt text](img/16_Commit%20probando%20empleado(segundo%20commit)%20.jpg)
     
