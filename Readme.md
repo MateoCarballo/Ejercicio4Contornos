@@ -119,9 +119,11 @@ Añadimos una nueva clase Empleado. Existen cambios en la Main y
 la nueva clase que no era trackeada. Asi que los añadimos al area intermedia y lo commiteamos. 
 Una vez hecho esto lo pusheamos a nuestro repo remoto y vemos que ramas tenemos con el comando  
 
- ```bash
-        git branch -a
- ```
+Para mostar todas las ramas: ``` git branch -a ```
+
+Para mostar los remotos que tenemos usamos: ``` git remote -v ```
+
+
 
 ![Alt text](img/16_Commit%20probando%20empleado(segundo%20commit)%20.jpg)
     
@@ -131,20 +133,19 @@ Una vez hecho esto lo pusheamos a nuestro repo remoto y vemos que ramas tenemos 
 
 ## 11. Mergeamos las ramas master y feat_empleado.
 
-    Mergeamos estas ramas en local e intentamos hacer un push.
+Mergeamos estas ramas en local e intentamos hacer un push.
 
 ![Alt text](img/19%20Pto%20de%20cagada%20deberia%20haber%20implementado%20el%20push%20de%20ordenador%202%20.jpg)
 
 En mi caso como no habia confirmado las modificaciones el Github no me da error.
+
 <!-- TODO: Intentar hacerlo al contrario desde ordenador 2 habiendo confirmado y dejando como definiva la version de ordenador1-->
-
 No entiendo que ha pasado la verdad.
-
 ![Alt text](img/20__Me%20quedo%20bloqueado%20y%20perdido%20.jpg)
 
 ## 12. Paso intermedio a mayores.
 
-    Creo que cometo un error en el momento que pusheo desde ordenador dos sin que ordenador1 con sus ramas esté subido, es decir, no me surge ningun conflito en ordenador 1 cuando pusheo. Sin embargo cuando quiero pullear desde el ordenador 2 si que me surge un conflicto. Como he visto en tus commit que te quedas con la parte de empleado modifico la main, borrando lo que sobra, y despues pulleo el repo remoto.
+Creo que cometo un error en el momento que pusheo desde ordenador dos sin que ordenador1 con sus ramas esté subido, es decir, no me surge ningun conflito en ordenador 1 cuando pusheo. Sin embargo cuando quiero pullear desde el ordenador 2 si que me surge un conflicto. Como he visto en tus commit que te quedas con la parte de empleado modifico la main, borrando lo que sobra, y despues pulleo el repo remoto.
 
 
 ### 12.1 Capturas.
@@ -158,7 +159,7 @@ No entiendo que ha pasado la verdad.
 ![Alt text](img/21.4_Intento%20arreglarlo%20para%20seguir.jpg)
 ## 13. Intento dejar los dos ordenadores con el mismo proyecto.
 
-    Debido al error que he cometido intento dejar las carpetas Ordenador1 y Ordenador2 con lo mismo (tener el mismo proyecto en el repo remoto y los dos locales) [¿Pueden tener distintos commit el repo local y el remoto siendo el mismo proyecto?]
+Debido al error que he cometido intento dejar las carpetas Ordenador1 y Ordenador2 con lo mismo (tener el mismo proyecto en el repo remoto y los dos locales) [¿Pueden tener distintos commit el repo local y el remoto siendo el mismo proyecto?]
 
 ### 13.1 Capturas de los commit en cada ordenador.
 
@@ -170,9 +171,9 @@ No entiendo que ha pasado la verdad.
 
 ![Alt text](img/22.2_situacion%20ord2.jpg)
 
-    Cuando deberiamos volver al Ordenador2. Nos informa que vamos dos commit por delante del repo remoto asi que lo que vamos a hacer es pushear el proyecto de Ord2 y después Pullearlo desde Ordenador1. Justo debajo podemos ver todos los comando usados en la consola de git. 
+Cuando deberiamos volver al Ordenador2. Nos informa que vamos dos commit por delante del repo remoto asi que lo que vamos a hacer es pushear el proyecto de Ord2 y después Pullearlo desde Ordenador1. Justo debajo podemos ver todos los comando usados en la consola de git. 
     
-    NOTA6: Atencion a los directorios que muestra la consola para entender desde que sitios estamos pusheando y pulleando.
+NOTA6: Atencion a los directorios que muestra la consola para entender desde que sitios estamos pusheando y pulleando.
 
 ![Alt text](img/24.0_Push%20desde%20ord2.jpg)
 
@@ -183,7 +184,7 @@ No entiendo que ha pasado la verdad.
 
 ## 14. Estado final en los dos ordenadores.
 
-    Por último cambiamos el este Readme.md para poder leerlo directamente en nuestro repo de GitHub.
+Por último cambiamos el este Readme.md para poder leerlo directamente en nuestro repo de GitHub.
 
 ### 14.1 Ordenador1.
 
@@ -193,10 +194,10 @@ No entiendo que ha pasado la verdad.
 
 ![Alt text](img/25.2_Estado%20final%20commit%20en%20Ordenador2.jpg)
 
-### Conclusiones.
 
-    Dejo aquí anotadas cosas a comentar con el profesor:
-        - Repasar las capturas y comprobar que es lo que hemos hecho.
+<!-- TODO:  **Dejo aquí anotadas cosas a comentar con el profesor:
+- Repasar las capturas y comprobar que es lo que hemos hecho.**-->
+
 
 
 
